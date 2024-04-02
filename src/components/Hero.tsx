@@ -12,14 +12,14 @@ export default function Hero () {
 
         <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 w-[1400px] h-[570px] flex items-center justify-center flex-col">
           <div className="p-4 sm:p-6">
-            <h1 className="font-GilroyBold text-5xl text-white text-center text-balance">
+            <h1 className="font-GilroyBold text-5xl text-white text-center text-balance drop-shadow-md">
               Conectamos talento y oportunidades para cultivar tu carrera en la agricultura y los negocios.
             </h1>
 
-            <p className="mt-2 line-clamp-3 text-white/95 text-center font-GilroyRegular text-lg text-pretty">
+            <p className="mt-2 line-clamp-3 text-white/95 text-center font-GilroyRegular text-lg text-pretty drop-shadow-md">
               Red internacional de talento y oportunidades en el área de gesión agrícola y negocios, agrotecnología hasta el desarrollo de negocios agroindustriales.
             </p>
-            <p className="mt-2 line-clamp-3 text-white/95 text-center font-GilroyRegular text-lg text-pretty">
+            <p className="mt-2 line-clamp-3 text-white/95 text-center font-GilroyRegular text-lg text-pretty drop-shadow-md">
               Únete a AgroTalent donde el futuro te espera para ser cosechado por ti.
             </p>
           </div>
