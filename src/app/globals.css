@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -16,18 +10,33 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer components {
+    .VTX div:first-child {
+        @apply rotate-45 translate-y-1.5
+    }
+        .VTX div:last-child {
+        @apply -rotate-45 -translate-y-1
+    }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer base {
+	@font-face {
+		font-family: GilroyRegular;
+		src: url(/fonts/Gilroy-Regular.woff2) format("woff2");
+	}
+
+  @font-face {
+    font-family: GilroyMedium;
+    src: url(/fonts/Gilroy-Medium.woff2) format("woff2");
   }
+
+  @font-face {
+		font-family: GilroySemiBold;
+		src: url(/fonts/Gilroy-SemiBold.woff2) format("woff2");
+	}
+
+	@font-face {
+		font-family: GilroyBold;
+		src: url(/fonts/Gilroy-Bold.woff2) format("woff2");
+	}
 }
