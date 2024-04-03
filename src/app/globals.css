@@ -3,40 +3,45 @@
 @tailwind utilities;
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-start-rgb: 0, 0, 0;
+		--background-end-rgb: 0, 0, 0;
+	}
 }
 
 @layer components {
-    .VTX div:first-child {
-        @apply rotate-45 translate-y-1.5
-    }
-        .VTX div:last-child {
-        @apply -rotate-45 -translate-y-1
-    }
+	.VTX div:first-child {
+		@apply rotate-45 translate-y-1.5;
+	}
+	.VTX div:last-child {
+		@apply -rotate-45 -translate-y-1;
+	}
 }
 
 @layer base {
 	@font-face {
 		font-family: GilroyRegular;
-		src: url(/fonts/Gilroy-Regular.woff2) format("woff2");
+		src: url(/fonts/Gilroy-Regular.woff2) format('woff2');
 	}
 
-  @font-face {
-    font-family: GilroyMedium;
-    src: url(/fonts/Gilroy-Medium.woff2) format("woff2");
-  }
+	@font-face {
+		font-family: GilroyMedium;
+		src: url(/fonts/Gilroy-Medium.woff2) format('woff2');
+	}
 
-  @font-face {
+	@font-face {
 		font-family: GilroySemiBold;
-		src: url(/fonts/Gilroy-SemiBold.woff2) format("woff2");
+		src: url(/fonts/Gilroy-SemiBold.woff2) format('woff2');
 	}
 
 	@font-face {
 		font-family: GilroyBold;
-		src: url(/fonts/Gilroy-Bold.woff2) format("woff2");
+		src: url(/fonts/Gilroy-Bold.woff2) format('woff2');
 	}
+}
+
+::selection {
+	background-color: #41885b;
+	color: white;
 }
