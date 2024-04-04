@@ -1,0 +1,98 @@
+.parent {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-column-gap: 16px;
+	grid-row-gap: 16px;
+	max-width: 1400px;
+	overflow: hidden;
+}
+
+.firstbox {
+	width: 350px;
+	height: 240px;
+	grid-area: 1 / 1 / 4 / 3;
+	border-radius: 25px;
+	@apply bg-green-pea-100 drop-shadow;
+}
+
+.secondbox {
+	width: 350px;
+	height: 240px;
+	grid-area: 4 / 1 / 7 / 3;
+	border-radius: 25px;
+	background-color: blanchedalmond;
+	@apply drop-shadow;
+}
+
+.thirdbox {
+	width: 350px;
+	height: 240px;
+	grid-area: 1 / 3 / 4 / 5;
+	border-radius: 25px;
+	background-color: black;
+	color: white;
+	@apply drop-shadow;
+}
+
+.fourthbox {
+	width: 350px;
+	height: 240px;
+	grid-area: 4 / 3 / 7 / 5;
+	border-radius: 25px;
+	@apply bg-gray-300 drop-shadow;
+}
+
+.fifthbox {
+	width: 665px;
+	height: 495px;
+	grid-area: 1 / 5 / 7 / 8;
+	border-radius: 25px;
+	overflow: hidden;
+	align-content: center;
+	@apply bg-green-pea-300 drop-shadow;
+}
+
+.POparent {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 16px;
+	grid-row-gap: 16px;
+	max-width: 1400px;
+	overflow: hidden;
+}
+
+.POBento1 {
+	grid-area: 1 / 1 / 6 / 3;
+	width: 665px;
+	height: 600px;
+	position: relative;
+	border-radius: 25px;
+	background-color: lightgray;
+	@apply drop-shadow;
+}
+
+.POBento2 {
+	grid-area: 1 / 3 / 4 / 7;
+	border-radius: 25px;
+	position: relative;
+	background-color: lightgray;
+	@apply drop-shadow;
+}
+
+.POBento3 {
+	grid-area: 4 / 3 / 6 / 5;
+	border-radius: 25px;
+	position: relative;
+	background-color: lightgray;
+	@apply drop-shadow;
+}
+
+.POBento4 {
+	grid-area: 4 / 5 / 6 / 7;
+	border-radius: 25px;
+	background-color: lightgray;
+	position: relative;
+	@apply drop-shadow;
+}
