@@ -1,6 +1,6 @@
 export default function AAG() {
 	return (
-		<section>
+		<section className='max-w-[1400px] m-auto'>
 			<div className='pt-[120px] pb-[120px] grid md:grid-cols-1 grid-rows-1'>
 				<div className='flex flex-col md:flex-row items-center lg:justify-center'>
 					<article className='flex items-center flex-col justify-center'>
