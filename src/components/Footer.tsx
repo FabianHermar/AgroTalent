@@ -144,9 +144,12 @@ export default function Footer() {
 						</a>
 						. All Rights Reserved.
 					</span>
-					<div className='flex mt-4 sm:justify-center sm:mt-0'>
+					<div className='flex mt-4 sm:justify-center sm:mt-0 text-base font-GilroyRegular'>
 						<a href='#' className='text-gray-500 hover:text-gray-900 ms-5'>
-							sdf
+							Politica de Privacidad
+						</a>
+						<a href='#' className='text-gray-500 hover:text-gray-900 ms-5'>
+							Términos y Condiciones
 						</a>
 					</div>
 				</div>
