@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 
-export default function Header () {
+export default function Header() {
 	return (
 		<header>
 			<div className='w-full relative z-20 border-b border-black/5 bg-white lg:bg-white/70 lg:backdrop-blur-md select-none'>
