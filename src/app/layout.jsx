@@ -2,11 +2,9 @@ import './globals.css'
 
 export const metadata = {
 	title: {
-		title: {
-			template: '%s - AgroTalent',
-			default:
-				'AgroTalent - Red internacional de talento y oportunidades en el área de gesión agrícola y negocios, agrotecnología hasta el desarrollo de negocios agroindustriales.'
-		}
+		template: '%s - AgroTalent',
+		default:
+			'AgroTalent - Red internacional de talento y oportunidades en el área de gesión agrícola y negocios, agrotecnología hasta el desarrollo de negocios agroindustriales.'
 	}
 }
 
