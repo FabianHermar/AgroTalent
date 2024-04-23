@@ -61,6 +61,7 @@
 	grid-row-gap: 16px;
 	max-width: 1400px;
 	overflow: hidden;
+	position: relative;
 }
 
 .POBento1 {
