@@ -2,7 +2,7 @@ import styles from './Bento.module.css'
 
 export default function PopularOffers() {
 	return (
-		<section className='py-20 max-w-[1400px] m-auto h-screen pt-48'>
+    <section className='py-20 max-w-[1400px] m-auto h-screen'>
 			<div className='flex items-center justify-between gap-10 flex-col md:flex-row pb-10'>
 				<h3 className='font-GilroyBold text-4xl text-balance text-center md:text-left'>
 					Descubre las ofertas más populares
